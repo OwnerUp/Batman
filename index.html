@@ -1,0 +1,59 @@
+
+<!DOCTYPE html><html><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>BATMAN (Official)</title>
+<style>
+body{margin:0;font-family:Arial;background:linear-gradient(135deg,#000,#071a3d,#000);min-height:100vh;display:flex;align-items:center;justify-content:center;color:#fff;overflow:hidden}
+.card{width:92%;max-width:560px;background:rgba(255,255,255,.08);backdrop-filter:blur(14px);padding:30px;border-radius:30px;text-align:center;box-shadow:0 0 40px rgba(255,215,0,.25)}
+.dp{width:150px;height:150px;border-radius:50%;border:5px solid gold;margin:auto;overflow:hidden;box-shadow:0 0 30px gold}
+.dp img{width:100%;height:100%;object-fit:cover}
+h1{color:gold}
+.tag{color:#6ec1ff;font-weight:bold}
+.stats{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:20px 0}
+.box{background:rgba(255,255,255,.08);padding:12px;border-radius:14px}
+.timer{font-size:60px;color:#4dc3ff;font-weight:bold}
+.btn{display:inline-block;background:linear-gradient(90deg,#007bff,#00b7ff);padding:16px 30px;border-radius:40px;color:#fff;text-decoration:none;font-weight:bold;box-shadow:0 0 25px #008cff}
+.notice{margin:15px 0;padding:12px;background:rgba(255,215,0,.12);border-radius:12px}
+ul{text-align:left;line-height:1.8}
+</style></head><body>
+<div class="card">
+<div class="dp"><img src="batman.jpg"></div>
+<h1>BATMAN (Official)</h1>
+<div class="tag">🔥 India's Fastest Cricket Community</div>
+<p>Premium Match Updates • Analysis • Insights</p>
+
+<div class="timer" id="t">60</div>
+<p>⏳ Access Window Closing Soon</p>
+
+<div class="stats">
+<div class="box"><b>50K+</b><br>Members</div>
+<div class="box"><b>1M+</b><br>Views</div>
+<div class="box"><b>24/7</b><br>Updates</div>
+<div class="box"><b>99%</b><br>Active</div>
+</div>
+
+<div class="notice">⚠ Limited Access - New members are joining rapidly.</div>
+
+<ul>
+<li>✅ Instant Match Updates</li>
+<li>✅ Premium Analysis</li>
+<li>✅ Live Scores & News</li>
+<li>✅ Trusted Community</li>
+<li>✅ Fast Notifications</li>
+</ul>
+
+<a class="btn" href="https://t.me/+yc83dCl8Wbw2YTZl">🚀 JOIN BATMAN COMMUNITY</a>
+
+<p>★★★★★ Best cricket channel on Telegram</p>
+</div>
+
+<script>
+let s=60;
+setInterval(()=>{
+s--;
+document.getElementById('t').innerText=s;
+if(s<=0) location.href='https://t.me/+yc83dCl8Wbw2YTZl';
+},1000);
+</script>
+</body></html>
